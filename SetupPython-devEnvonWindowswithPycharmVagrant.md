@@ -25,5 +25,5 @@ After running the above two commands, you'll have a fully running virtual machin
 
 
 After vagrant up,your cmd should like below.
-> ![vagrant](static/vagrant02.png "shell of vagrant")
+> ![vagrant up stauts](static/vagrant02.png "shell of vagrant")
 
