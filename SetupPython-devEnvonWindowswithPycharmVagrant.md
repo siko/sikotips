@@ -27,3 +27,12 @@ After running the above two commands, you'll have a fully running virtual machin
 After vagrant up,your cmd should like below.
 > ![vagrant up stauts](static/vagrant02.png "shell of vagrant")
 
+vagrant file
+--------
+
+some changes of need
+
+* config.vm.synced_folder "../vcode", "/vcode"
+* vb.customize ["modifyvm", :id, "--memory", "1024"]
+* config.vm.network :forwarded_port, guest: 5000, host: 5000
+
