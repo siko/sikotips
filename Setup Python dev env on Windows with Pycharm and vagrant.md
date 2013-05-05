@@ -1,4 +1,5 @@
->this is a guide for setup python dev env on windows 7 x64 with pycharm and vagrant.
+this is a guide for setup python dev env on windows (win7_x64) with
+pycharm (2.7.2) and vagrant(1.2.2).
 
 install the software
 ============
