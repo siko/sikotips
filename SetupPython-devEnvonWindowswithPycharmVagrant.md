@@ -44,3 +44,7 @@ some changes of need,completed [vagrantfile](vagrant/Vagrantfile)
 
 > default port of flask.,add lines of you need.
 
+Ubuntu and python evn setup
+-----------
+
+for ubuntu and python setup ,please read this artilce [Ubuntu Setup](ubuntu/setup.md)
