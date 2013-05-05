@@ -32,15 +32,15 @@ vagrant file
 
 some changes of need,completed [vagrantfile](vagrant/Vagrantfile)
 
-* config.vm.synced_folder "../vcode", "/vcode"
+1. config.vm.synced_folder "../vcode", "/vcode"
 
 > add share folder between host and guest
 
-* vb.customize ["modifyvm", :id, "--memory", "1024"]
+2. vb.customize ["modifyvm", :id, "--memory", "1024"]
 
 > change memory of virtual box
 
-* config.vm.network :forwarded_port, guest: 5000, host: 5000
+3. config.vm.network :forwarded_port, guest: 5000, host: 5000
 
 > default port of flask.,add lines of you need.
 
