@@ -21,18 +21,21 @@ UP AND RUNNING
 >
 > $ vagrant up
 
-After running the above two commands, you'll have a fully running virtual machine in VirtualBox running Ubuntu 12.04 LTS 32-bit. You can SSH into this machine with vagrant ssh, and when you're done playing around, you can remove all traces of it with vagrant destroy.
+After running the above two commands, you'll have a fully running virtual machine in VirtualBox running Ubuntu 12.04 LTS 32-bit. You can SSH into this machine with 'vagrant ssh', and when you're done playing around, you can remove all traces of it with vagrant destroy.
 
 
 After vagrant up,your cmd should like below.
 > ![vagrant up stauts](static/vagrant02.png "shell of vagrant")
 
 vagrant file
---------
+-----------
 
 some changes of need
 
 * config.vm.synced_folder "../vcode", "/vcode"
+> add share folder between host and guest
 * vb.customize ["modifyvm", :id, "--memory", "1024"]
+> change memory of virtual box
 * config.vm.network :forwarded_port, guest: 5000, host: 5000
+> default port of flask.,add lines of you need.
 
