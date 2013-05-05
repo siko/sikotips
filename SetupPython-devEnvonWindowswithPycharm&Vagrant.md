@@ -12,7 +12,7 @@ Configure for vagrant
 ============
 
 After vagrant setup,your cmd should like below.
-> ![vagrant](~/static/vagrant01.png "shell of vagrant")
+> ![vagrant](static/vagrant01.png "shell of vagrant")
 
 
 UP AND RUNNING
@@ -24,4 +24,6 @@ UP AND RUNNING
 After running the above two commands, you'll have a fully running virtual machine in VirtualBox running Ubuntu 12.04 LTS 32-bit. You can SSH into this machine with vagrant ssh, and when you're done playing around, you can remove all traces of it with vagrant destroy.
 
 
+After vagrant up,your cmd should like below.
+> ![vagrant](static/vagrant02.png "shell of vagrant")
 
