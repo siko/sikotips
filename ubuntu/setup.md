@@ -14,6 +14,32 @@ remove the kenerl from the apt update. or you can install the VBoxGuestAdditions
 > $echo linux-restricted-modules-generic hold | dpkg --set-selections
 >
 > $sudo apt-get update && sudo apt-get upgrade
+>
+> $sudo apt-get install aptitude  build-essential automake autoconf autotools-dev ftp unzip sysv-rc-conf curl -y
+
+
 
 Python setup
 =====
+
+Install pythonbrew
+-----
+
+more info please refer [PythonBrew](https://github.com/utahta/pythonbrew)
+
+The recommended way to download and install pythonbrew is to run these statements in your shell::
+
+  curl -kL http://xrl.us/pythonbrewinstall | bash
+
+After that, pythonbrew installs itself to ~/.pythonbrew.
+
+Please add the following line to the end of your ~/.bashrc::
+
+  [[ -s $HOME/.pythonbrew/etc/bashrc ]] && source $HOME/.pythonbrew/etc/bashrc
+
+If you need to install pythonbrew into somewhere else, you can do that by setting a PYTHONBREW_ROOT environment variable::
+
+  export PYTHONBREW_ROOT=/path/to/pythonbrew
+  curl -kLO http://xrl.us/pythonbrewinstall
+  chmod +x pythonbrewinstall
+  ./pythonbrewinstall
