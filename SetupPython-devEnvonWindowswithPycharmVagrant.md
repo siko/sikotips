@@ -31,12 +31,9 @@ vagrant file
 
 some changes of need,completed [vagrantfile](vagrant/Vagrantfile)
 
-1. config.vm.synced_folder "../vcode", "/vcode"
-    _add share folder between host and guest_
-2. vb.customize ["modifyvm", :id, "--memory", "1024"]
-    change memory of virtual box
-3. config.vm.network :forwarded_port, guest: 5000, host: 5000
-    default port of flask.,add lines of you need.
+1. config.vm.synced_folder "../vcode", "/vcode"    * add share folder between host and guest *
+2. vb.customize ["modifyvm", :id, "--memory", "1024"]    * change memory of virtual box *
+3. config.vm.network :forwarded_port, guest: 5000, host: 5000    * default port of flask.,add lines of you need. *
 
 Ubuntu and python evn setup
 -----------
