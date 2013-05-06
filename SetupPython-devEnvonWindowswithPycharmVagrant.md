@@ -4,28 +4,27 @@ pycharm (2.7.2) and vagrant(1.2.2).
 Install the software
 ============
 
->virtural box
->vagrant
->pycharm
+    virtural box
+    vagrant
+    pycharm
 
 Configure for vagrant
 ============
 
 After vagrant setup,your cmd should like below.
-> ![vagrant](static/vagrant01.png "shell of vagrant")
+![vagrant](static/vagrant01.png "shell of vagrant")
 
 
 UP AND RUNNING
 
-> $ vagrant init precise32 http://files.vagrantup.com/precise32.box
->
-> $ vagrant up
+    vagrant init precise32 http://files.vagrantup.com/precise32.box
+    vagrant up
 
 After running the above two commands, you'll have a fully running virtual machine in VirtualBox running Ubuntu 12.04 LTS 32-bit. You can SSH into this machine with 'vagrant ssh', and when you're done playing around, you can remove all traces of it with vagrant destroy.
 
 
 After vagrant up,your cmd should like below.
-> ![vagrant up stauts](static/vagrant02.png "shell of vagrant")
+![vagrant up stauts](static/vagrant02.png "shell of vagrant")
 
 vagrant file
 -----------
@@ -33,16 +32,11 @@ vagrant file
 some changes of need,completed [vagrantfile](vagrant/Vagrantfile)
 
 1. config.vm.synced_folder "../vcode", "/vcode"
-
-> add share folder between host and guest
-
+    add share folder between host and guest
 2. vb.customize ["modifyvm", :id, "--memory", "1024"]
-
-> change memory of virtual box
-
+    change memory of virtual box
 3. config.vm.network :forwarded_port, guest: 5000, host: 5000
-
-> default port of flask.,add lines of you need.
+    default port of flask.,add lines of you need.
 
 Ubuntu and python evn setup
 -----------
