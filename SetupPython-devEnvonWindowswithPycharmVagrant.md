@@ -8,7 +8,7 @@ Install the software
     vagrant
     pycharm
 
-Configure for vagrant
+Configure for Vagrant
 ============
 
 After vagrant setup,your cmd should like below.
@@ -43,7 +43,19 @@ default port of flask.,add lines of you need.
 
     config.vm.network :forwarded_port, guest: 5000, host: 5000
 
-Ubuntu and python evn setup
+Ubuntu and python env setup
 -----------
 
 for ubuntu and python setup ,please read this artilce [Ubuntu Setup](ubuntu/setup.md)
+
+Configure for Pycharm
+============
+
+
+Configure Remote Python Interpreter.
+-----------
+
+click fill from Vagrant config will auto fill,
+
+
+![pycharm ](static/pycharm01.png "shell of vagrant")
