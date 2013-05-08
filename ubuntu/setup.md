@@ -9,7 +9,7 @@ remove the kenerl from the apt update. or you can install the VBoxGuestAdditions
     echo linux-image-generic hold | dpkg --set-selections
     echo linux-restricted-modules-generic hold | dpkg --set-selections
     sudo apt-get update && sudo apt-get upgrade
-    sudo apt-get install aptitude  build-essential automake autoconf autotools-dev ftp unzip sysv-rc-conf curl -y
+    sudo apt-get install git aptitude build-essential automake autoconf autotools-dev libbz2-dev ftp unzip sysv-rc-conf curl -y
 
 
 
