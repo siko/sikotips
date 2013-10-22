@@ -1,2 +1,2 @@
-pydev-tips
-==========
+siko's developmet tips
+============
