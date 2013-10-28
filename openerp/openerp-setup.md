@@ -6,7 +6,7 @@ Install PostgreSQL
 
     sudo apt-get install postgresql
     sudo su postgres
-    createuser --createdb --username postgres --no-createrole --pwprompt vagrant
+    createuser --createdb --username postgres --no-createrole --pwprompt siko
 
 refer url
 
@@ -32,8 +32,6 @@ Install the requirments.
     pip install -e bzr+http://download.gna.org/pychart/bzr-archive#egg=pychart
     pip install babel feedparser gdata lxml mako psycopg2 pydot python-dateutil python-ldap python-openid pytz pywebdav pyyaml reportlab simplejson vatnumber vobject werkzeug xlwt zsi Beaker MarkupSafe PyXML docutils mock unittest2
 
-
-
 Check out code and run OpenERP.
 ----
 
@@ -50,7 +48,6 @@ check out the code , need long time, you can chose the differt version. run make
 start the openerp ,and enjoy it, if missing some module cause error,please using pip install those.
 
     make server
-
 
 encoding UTF8 does not match locale en_US; the chosen LC_CTYPE setting requires encoding LATIN1
 -----
