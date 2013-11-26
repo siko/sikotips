@@ -1,33 +1,49 @@
 7zip 解压缩指定文件
     
     7z e xx.7z aa*.txt -r
- 
 
-查找软件库中的软件:  
+
+查找软件库中的软件:
+
     apt-cache search 正则表达式
 
-查找软件库中的软件:  
+
+查找软件库中的软件:
+
     aptitude search 软件包
 
-查找文件属于哪个包:  
+
+查找文件属于哪个包:
+
     dpkg -S filename
 
-查找文件属于哪个包:  
+
+查找文件属于哪个包:
+
     apt-file search filename
 
-查询软件xxx依赖哪些包:  
+
+查询软件xxx依赖哪些包:
+
     apt-cache depends xxx
 
-查询软件xxx被哪些包依赖:  
+
+查询软件xxx被哪些包依赖:
+
     apt-cache rdepends xxx
 
-增加一个光盘源:  
+
+增加一个光盘源:
+
     sudo apt-cdrom add
 
-系统升级:  
+
+系统升级:
+
     sudo apt-get update;sudo apt-get dist-upgrade
 
-清除已删除包的残馀配置文件:  
+清除已删除包的残馀配置文件:
+
     dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
 
 编译时缺少h文件的自动处理:  
