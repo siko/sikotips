@@ -8,7 +8,7 @@ check cpu
 
 
     apt-get install libxss1 libstdc++5 ia32-libs freeglut3 -y
-    wget http://boinc.berkeley.edu/dl/boinc_7.2.33_x86_64-pc-linux-gnu.sh
+    wget http://boinc.berkeley.edu/dl/boinc_7.2.34_x86_64-pc-linux-gnu.sh
     chmod +x boinc_7.2.33_x86_64-pc-linux-gnu.sh
     ./boinc_7.2.33_x86_64-pc-linux-gnu.sh
     cd BOINC/
@@ -20,7 +20,7 @@ check cpu
 ---------
 
     apt-get install libxss1 libstdc++5 freeglut3 -y
-    wget http://boinc.berkeley.edu/dl/boinc_7.2.33_i686-pc-linux-gnu.sh
+    wget http://boinc.berkeley.edu/dl/boinc_7.2.34_i686-pc-linux-gnu.sh
     chmod +x boinc_7.2.33_i686-pc-linux-gnu.sh
     ./boinc_7.2.33_i686-pc-linux-gnu.sh
     cd BOINC/
@@ -32,7 +32,7 @@ check cpu
 ---------
 
     apt-get install libxss1 libstdc++5 ia32-libs freeglut3 -y
-    wget http://boinc.berkeley.edu/dl/boinc_7.2.33_x86_64-pc-linux-gnu.sh
+    wget http://boinc.berkeley.edu/dl/boinc_7.2.34_x86_64-pc-linux-gnu.sh
     chmod +x boinc_7.2.33_x86_64-pc-linux-gnu.sh
     ./boinc_7.2.33_x86_64-pc-linux-gnu.sh
     cd BOINC/
