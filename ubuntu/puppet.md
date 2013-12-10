@@ -40,4 +40,9 @@ puppet client
 
     puppetca sign -a
 
+    augtool << EOF
+    set /files/etc/default/puppet/START no
+    save
+    EOF
+
 
