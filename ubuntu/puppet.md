@@ -38,6 +38,6 @@ puppet client
 
     puppet agent -vt --waitforcert 60
 
-    puppetca sign –a
+    puppetca sign -a
 
 
