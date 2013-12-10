@@ -36,13 +36,15 @@ puppet client
     save
     EOF
 
-    puppet agent -vt --waitforcert 60
-
-    puppetca sign -a
-
     augtool << EOF
     set /files/etc/default/puppet/START yes
     save
     EOF
+
+    puppet agent -vt --waitforcert 60
+
+on the master ,sign ca
+
+    puppetca sign -a
 
 
