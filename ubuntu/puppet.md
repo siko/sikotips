@@ -5,13 +5,6 @@ puppet master
     aptitude -y install puppet augeas-tools
 
 
-    augtool << EOF
-    set /files/etc/puppet/puppet.conf/agent/pluginsync false
-    set /files/etc/puppet/puppet.conf/agent/server s.vv5i.org
-    save
-    EOF
-
-
     cat > /etc/puppet/manifests/site.pp << EOF
     node default {
         notify { "Hey ! It works !": }
@@ -35,6 +28,13 @@ puppet client
 
 
     aptitude -y install puppet augeas-tools
+
+
+    augtool << EOF
+    set /files/etc/puppet/puppet.conf/agent/pluginsync false
+    set /files/etc/puppet/puppet.conf/agent/server s.vv5i.org
+    save
+    EOF
 
     puppet agent -vt --waitforcert 60
 
