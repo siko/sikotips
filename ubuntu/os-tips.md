@@ -1,5 +1,12 @@
+启用Cron Log
+
+    vim /etc/syslog.conf
+    /etc/init.d/sysklogd restart
+    /etc/init.d/cron restart
+
+
 7zip 解压缩指定文件
-    
+
     7z e xx.7z aa*.txt -r
 
 
