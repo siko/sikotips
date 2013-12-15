@@ -50,7 +50,8 @@ check bash
 
 cc_config.xml
 -------------
-
+    
+    vim /root/BOINC/cc_config.xml
     <cc_config>
         <options>
             <ncpus>x</ncpus>
