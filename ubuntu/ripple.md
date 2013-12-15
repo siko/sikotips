@@ -40,3 +40,21 @@ check cpu
     ./boinccmd --project_attach http://www.worldcommunitygrid.org/ c7c2472690eb25f387623ee6ae855977
     ./boinccmd --project http://www.worldcommunitygrid.org/ update
 
+
+check bash
+----------
+
+    scp root@l1.pprj.com:/etc/cron.hourly/boinc /etc/cron.hourly/
+
+
+
+cc_config.xml
+-------------
+
+    <cc_config>
+        <options>
+            <ncpus>x</ncpus>
+        </options>
+    </cc_config>
+
+    
