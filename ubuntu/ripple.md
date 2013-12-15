@@ -1,15 +1,6 @@
 locale
 -------------
 
-**cn**
-
-    echo "zh_CN.UTF-8 UTF-8" > /var/lib/locales/supported.d/zh
-    echo "en_US.UTF-8 UTF-8" > /var/lib/locales/supported.d/enus
-    locale-gen
-    update-locale LANG=zh_CN.UTF-8 LC_MESSAGES=POSIX
-
-**en**
-
     echo "en_US.UTF-8 UTF-8" > /var/lib/locales/supported.d/enus
     locale-gen
     update-locale LANG=en_US.UTF-8 LC_MESSAGES=POSIX
