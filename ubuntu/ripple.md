@@ -18,6 +18,9 @@ remove no need
 --------------
 
     aptitude remove bind9 samba apache2
+    sysv-rc-conf apache2 off
+    sysv-rc-conf sendmail off
+    sysv-rc-conf bind9 off
 
 check cpu
 ---------
