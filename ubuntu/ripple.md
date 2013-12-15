@@ -14,6 +14,11 @@ pro setup
     apt-get install -y aptitude build-essential automake autoconf autotools-dev libc-dev g++ ftp unzip sysv-rc-conf curl git cmake 
     apt-get install libxss1 libstdc++5 ia32-libs freeglut3 -y
 
+remove no need
+--------------
+
+    aptitude remove bind9 samba apache2
+
 check cpu
 ---------
 
