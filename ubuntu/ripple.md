@@ -61,9 +61,10 @@ check cpu
     ./boinccmd --project http://www.worldcommunitygrid.org/ update
 
 
-64 ubuntu - zpprj
+64 13.10 ubuntu - zpprj
 ---------
 
+    apt-get install libxss1 libstdc++5  freeglut3  lib32z1 lib32ncurses5 lib32bz2-1.0 -y
     wget http://boinc.berkeley.edu/dl/boinc_7.2.33_x86_64-pc-linux-gnu.sh
     chmod +x boinc_7.2.33_x86_64-pc-linux-gnu.sh
     ./boinc_7.2.33_x86_64-pc-linux-gnu.sh
