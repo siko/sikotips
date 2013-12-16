@@ -61,6 +61,17 @@ check cpu
     ./boinccmd --project http://www.worldcommunitygrid.org/ update
 
 
+64 ubuntu - zpprj
+---------
+
+    wget http://boinc.berkeley.edu/dl/boinc_7.2.33_x86_64-pc-linux-gnu.sh
+    chmod +x boinc_7.2.33_x86_64-pc-linux-gnu.sh
+    ./boinc_7.2.33_x86_64-pc-linux-gnu.sh
+    cd BOINC/
+    ./run_client --daemon
+    ./boinccmd --project_attach http://www.worldcommunitygrid.org/ 7288fd4ba77cf3df3605a7136e1fcc69
+    ./boinccmd --project http://www.worldcommunitygrid.org/ update
+
 check bash
 ----------
 
