@@ -27,7 +27,8 @@ Rockchip SoC
 
 
 refer links:
-    http://source.android.com/source/initializing.html
-    http://radxa.com/Rock/Android_Build
-    https://bitbucket.org/T-Firefly/firefly-rk3288
+    http://source.android.com/source/initializing.html 
+    http://radxa.com/Rock/Android_Build 
+    https://bitbucket.org/T-Firefly/firefly-rk3288 
+    http://wiki.t-firefly.com/index.php/Firefly-RK3288/Build_android 
 
