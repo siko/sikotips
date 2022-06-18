@@ -34,3 +34,6 @@ change it
 
     export BROWSER="/home/siko/.scripts/wsl_browser.sh"
 
+open rust doc
+
+    rustup doc
