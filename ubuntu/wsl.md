@@ -73,3 +73,8 @@ ldconfig = false
 [wsl2]
 networkingMode=mirrored
 ```
+
+Get started with databases on Windows Subsystem for Linux
+===
+
+https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-database
